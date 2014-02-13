@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<World>
+
+	<Obstacle id="5" center="(20.0 , 0.0 , 35.0)" radius="10" />
+	<Obstacle id="6" center="(35.0 , 0.0 , 20.0)" radius="10" />
+
+	<Path id="01">
+		<Attribute point="( 35.0 , 0.0 , -35.0 )"/>
+		<Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+		<Attribute point="( -35.0 , 0.0 , 35.0 )"/>
+		<Attribute point="( -35.0 , 0.0 , -35.0 )"/>
+		<Attribute point="( 35.0 , 0.0 , -35.0 )"/>
+		<Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+	</Path>
+
+	<Boid id="id02">
+		<Attribute velocity="4.1" /> 	// velocidade especifica do lider
+		<Attribute path_id="01" />
+		<Attribute property="( model : carroA )" />
+	</Boid>
+	
+	<Group id="birds01">
+		<Attribute number="10" />
+		<Attribute velocity="4.1" /> 	  // velocidade média (ou por minima e máxima?)
+		<Attribute dim="0" /> 			    // 0 = 3D, 1,2 e 3 = 2D variando os eixos
+		<Attribute cycleTime="10" /> 				
+		<Attribute liderId="id02" />
+	</Group>
+	
+	<Group id="people01">
+		<Attribute number="0" />
+		<Attribute velocity="4.1" /> 	  // velocidade média (ou por minima e máxima?)
+		<Attribute dim="0" /> 			    // 0 = 3D, 1,2 e 3 = 2D variando os eixos
+		<Attribute cycleTime="10" /> 				
+		<Attribute add="id02" />
+    <Attribute disperseWeight="0.1" />
+
+  </Group>
+	
+	
+
+</World>

@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<World>
+
+  <Obstacle id="0" center="(35.0 , -30.0 , 35.0)" radius="1" />
+  <Obstacle id="1" center="(-35.0 , -30.0 , -35.0)" radius="1" />
+  <Obstacle id="2" center="(-35.0 , -30.0 , 35.0)" radius="1" />
+  <Obstacle id="3" center="(35.0 , -30.0 , -35.0)" radius="1" />
+
+  <Obstacle id="4" min="(-10.0 , -40.0 , -10.0)" max="(10.0 , 40.0 , 10.0)" />
+
+  <Obstacle id="5" center="(20.0 , 0.0 , 35.0)" radius="10" />
+  <Obstacle id="6" center="(35.0 , 0.0 , 20.0)" radius="10" />
+
+
+  <Path id="01">
+    <Attribute point="( 35.0 , 0.0 , -35.0 )"/>
+    <Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+    <Attribute point="( -35.0 , 0.0 , 35.0 )"/>
+    <Attribute point="( -35.0 , 0.0 , -35.0 )"/>
+    <Attribute point="( 35.0 , 0.0 , -35.0 )"/>
+    <Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+  </Path>
+
+  <Path id="02">
+    <Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+    <Attribute point="( 35.0 , 0.0 , -35.0 )"/>
+    <Attribute point="( -35.0 , 0.0 , -35.0 )"/>
+    <Attribute point="( -35.0 , 0.0 , 35.0 )"/>
+    <Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+    <Attribute point="( 35.0 , 0.0 ,-35.0 )"/>
+  </Path>
+
+  <Boid id="id02">
+    <Attribute path_id="01" />
+    <Attribute property="( model : carroA )" />
+  </Boid>
+
+  <Boid id="id03">
+    <Attribute path_id="02" />
+    <Attribute property="( model : carroB )" />
+  </Boid>
+
+
+  <Group id="birds01">
+    <Attribute velocity="4.1" /> 	  // velocidade média (ou por minima e máxima?)
+    <Attribute dim="0" /> 			    // 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute cycleTime="10" />
+    <Attribute add="id02" /> 				// id do lider deste grupo (manter líderes) num array à parte (Swarm só de líderes que não se influenciam uns aos outros)
+    <Attribute add="id03" /> 				// id do lider deste grupo (manter líderes) num array à parte (Swarm só de líderes que não se influenciam uns aos outros)
+  </Group>
+
+
+
+
+  <Group id="people01">
+    <Attribute number="100" />
+    <Attribute velocity="1.1" /> 	// velocidade média (ou por minima e máxima?)
+    <Attribute dim="2" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute coord2D="-30" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute centerOfBoundary="( 0 , 0 , 0)" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute boundary="80" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute cycleTime="10" />
+    <Attribute flockWeight="0.5" />
+    <Attribute disperseWeight="0.5" />
+    <Attribute matchWeight="0.5" />
+    <Attribute boundaryWeight="1" />
+    <Attribute followLiderWeight="1" />
+    <Attribute followPathWeight="1" />
+    <Attribute randomWeight="0.5" />
+    <Attribute avoidObstaclesWeight="1" />
+    <Attribute avoidPredatorsWeight="1" />
+    <Attribute targetWeight="1" />
+
+  </Group>
+
+  <Friends A="id02" B="id03" />
+  <Friends A="id03" B="id02" />
+
+</World>

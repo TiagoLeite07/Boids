@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<World>
+
+	<Obstacle id="5" center="(20.0 , 0.0 , 35.0)" radius="10" />
+	<Obstacle id="6" center="(35.0 , 0.0 , 20.0)" radius="10" />
+
+	<Path id="01">
+		<Attribute point="( 35.0 , 0.0 , -35.0 )"/>
+		<Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+		<Attribute point="( -35.0 , 0.0 , 35.0 )"/>
+		<Attribute point="( -35.0 , 0.0 , -35.0 )"/>
+		<Attribute point="( 35.0 , 0.0 , -35.0 )"/>
+		<Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+	</Path>
+	
+	<Path id="02">
+		<Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+		<Attribute point="( 35.0 , 0.0 , -35.0 )"/>
+		<Attribute point="( -35.0 , 0.0 , -35.0 )"/>
+		<Attribute point="( -35.0 , 0.0 , 35.0 )"/>
+		<Attribute point="( 35.0 , 0.0 , 35.0 )"/>
+		<Attribute point="( 35.0 , 0.0 ,-35.0 )"/>
+	</Path>
+
+	<Boid id="id02">
+		<Attribute velocity="4.1" /> 	// velocidade especifica do lider
+		<Attribute path_id="01" />
+		<Attribute property="( model : carroA )" />
+	</Boid>
+	
+	<Boid id="id03">
+		<Attribute velocity="4.1" /> 	// velocidade especifica do lider
+		<Attribute path_id="02" />
+		<Attribute property="( model : carroA )" />
+	</Boid>
+	
+	<Group id="dragons01">
+    <Attribute number="5" />
+    <Attribute space="80" />
+    <Attribute velocity="4.1" /> 	  // velocidade média (ou por minima e máxima?)
+		<Attribute dim="0" /> 			    // 0 = 3D, 1,2 e 3 = 2D variando os eixos
+		<Attribute cycleTime="10" /> 				
+		<Attribute liderId="id02" />
+		<Attribute flockWeight="0.2" />
+		<Attribute disperseWeight="10.5" />
+		<Attribute matchWeight="0.5" />
+		<Attribute boundaryWeight="1" />
+		<Attribute followLiderWeight="1" />
+		<Attribute followPathWeight="10" />
+		<Attribute avoidObstaclesWeight="1" />
+	</Group>
+	
+	<Group id="birds02">
+		<Attribute number="0" />
+		<Attribute velocity="4.1" /> 	  // velocidade média (ou por minima e máxima?)
+		<Attribute dim="0" /> 			    // 0 = 3D, 1,2 e 3 = 2D variando os eixos
+		<Attribute cycleTime="10" /> 				
+		<Attribute add="id02" />
+    <Attribute followPathWeight="10" />
+
+  </Group>
+	
+	<Group id="birds03">
+		<Attribute number="0" />
+		<Attribute velocity="4.1" /> 	  // velocidade média (ou por minima e máxima?)
+		<Attribute dim="0" /> 			    // 0 = 3D, 1,2 e 3 = 2D variando os eixos
+		<Attribute cycleTime="10" /> 				
+		<Attribute add="id03" />
+    <Attribute followPathWeight="10" />
+
+  </Group>
+	
+	<Group id="birds04">
+		<Attribute number="10" />
+		<Attribute velocity="4.1" /> 	  // velocidade maxima
+    <Attribute dim="0" /> 			    // 0 = 3D, 1,2 e 3 = 2D variando os eixos
+		<Attribute cycleTime="10" />
+		<Attribute predatorsGroup="dragons01" />
+	</Group>
+
+
+  <Group id="people04">
+    <Attribute number="150" />
+    <Attribute velocity="1.1" /> 	// velocidade média (ou por minima e máxima?)
+    <Attribute dim="2" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute coord2D="-30" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute centerOfBoundary="( 0 , 0 , 0)" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute boundary="80" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute cycleTime="10" />
+    <Attribute flockWeight="0.1" />
+    <Attribute disperseWeight="0.5" />
+    <Attribute matchWeight="0.5" />
+    <Attribute boundaryWeight="1" />
+    <Attribute followLiderWeight="1" />
+    <Attribute followPathWeight="1" />
+    <Attribute randomWeight="2.5" />
+    <Attribute avoidObstaclesWeight="1" />
+    <Attribute avoidPredatorsWeight="1" />
+    <Attribute targetWeight="1" />
+
+  </Group>
+	
+	<Friends A="id02" B="id03" />
+	<Friends A="id03" B="id02" />
+
+</World>

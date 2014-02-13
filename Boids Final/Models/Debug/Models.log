@@ -1,0 +1,108 @@
+﻿  Vec3.cpp
+  tinyxmlparser.cpp
+  tinyxmlerror.cpp
+  tinyxml.cpp
+  tinystr.cpp
+  Swarm.cpp
+c:\users\paulo\desktop\boids v6\models\rtree.h(392): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\paulo\desktop\boids v6\models\rtree.h(402): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\paulo\desktop\boids v6\models\swarm.cpp(123): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+c:\users\paulo\desktop\boids v6\models\swarm.cpp(216): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\swarm.cpp(225): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\paulo\desktop\boids v6\models\swarm.cpp(226): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\paulo\desktop\boids v6\models\swarm.cpp(227): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\paulo\desktop\boids v6\models\swarm.cpp(244): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\swarm.cpp(320): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+  Scene.cpp
+c:\users\paulo\desktop\boids v6\models\rtree.h(392): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\paulo\desktop\boids v6\models\rtree.h(402): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+  Paths.cpp
+  Obstacle.cpp
+  Main.cpp
+c:\users\paulo\desktop\boids v6\models\rtree.h(392): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\paulo\desktop\boids v6\models\rtree.h(402): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\paulo\desktop\boids v6\models\main.cpp(343): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+c:\users\paulo\desktop\boids v6\models\main.cpp(390): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\main.cpp(391): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\main.cpp(418): warning C4305: '+=' : truncation from 'double' to 'float'
+c:\users\paulo\desktop\boids v6\models\main.cpp(420): warning C4305: '-=' : truncation from 'double' to 'float'
+c:\users\paulo\desktop\boids v6\models\main.cpp(422): warning C4305: '+=' : truncation from 'double' to 'float'
+c:\users\paulo\desktop\boids v6\models\main.cpp(424): warning C4305: '-=' : truncation from 'double' to 'float'
+  BWorld.cpp
+c:\users\paulo\desktop\boids v6\models\rtree.h(392): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\paulo\desktop\boids v6\models\rtree.h(402): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(50): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(100): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(262): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(263): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(381): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(545): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(557): warning C4305: 'initializing' : truncation from 'double' to 'float'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(642): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(680): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(686): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(735): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(756): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(770): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(820): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(695): warning C4101: 'type' : unreferenced local variable
+  Caminho.cpp
+c:\users\paulo\desktop\boids v6\models\caminho.cpp(47): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\caminho.cpp(54): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\caminho.cpp(61): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\caminho.cpp(68): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\caminho.cpp(101): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\caminho.cpp(108): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\caminho.cpp(115): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\caminho.cpp(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  Boid.cpp
+c:\users\paulo\desktop\boids v6\models\rtree.h(392): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\paulo\desktop\boids v6\models\rtree.h(402): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\paulo\desktop\boids v6\models\boid.cpp(156): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(198): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(238): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(315): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(318): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(319): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(320): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(321): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(322): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(323): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\paulo\desktop\boids v6\models\boid.cpp(502): warning C4101: 'oor' : unreferenced local variable
+c:\users\paulo\desktop\boids v6\models\boid.cpp(548): warning C4018: '<' : signed/unsigned mismatch
+c:\users\paulo\desktop\boids v6\models\boid.cpp(570): warning C4018: '>=' : signed/unsigned mismatch
+  Generating Code...
+c:\users\paulo\desktop\boids v6\models\boid.cpp(367): warning C4715: 'Boid::run_of_place' : not all control paths return a value
+c:\users\paulo\desktop\boids v6\models\bworld.cpp(545): warning C4700: uninitialized local variable 'calcRotation' used
+  l3dvsl.lib(vsShaderLib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+Boid.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+l3dvsl.lib(vsShaderLib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Boid.obj
+l3dvsl.lib(vsMathLib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Boid.obj
+l3dvsl.lib(vsGLInfoLib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Boid.obj
+l3dvsl.lib(vsProfileLib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Boid.obj
+l3dvsl.lib(vsResourceLib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Boid.obj
+l3dvsl.lib(vsResModelLib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Boid.obj
+l3dvsl.lib(vsFontLib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Boid.obj
+l3dvsl.lib(vsLogLib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Boid.obj
+msvcprt.lib(locale0_implib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Boid.obj
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\Paulo\Desktop\Boids v6\Debug\Boids.exe : fatal error LNK1319: 9 mismatches detected

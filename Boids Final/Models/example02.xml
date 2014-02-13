@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<World>
+
+    
+  <Obstacle id="0" center="(35.0 , -30.0 , 35.0)" radius="1" />
+  <Obstacle id="1" center="(-35.0 , -30.0 , -35.0)" radius="1" />
+  <Obstacle id="2" center="(-35.0 , -30.0 , 35.0)" radius="1" />
+  <Obstacle id="3" center="(35.0 , -30.0 , -35.0)" radius="1" />
+
+  <Obstacle id="4" min="(-10.0 , -40.0 , -10.0)" max="(10.0 , 40.0 , 10.0)" />
+
+  <Obstacle id="5" center="(20.0 , 0.0 , 35.0)" radius="10" />
+  <Obstacle id="6" center="(35.0 , 0.0 , 20.0)" radius="10" />
+  <Boid id="id01">
+    <Attribute velocity="3.1" /> 	// velocidade especifica do lider
+  </Boid>
+  
+  <Group id="people01">
+    <Attribute number="2" />
+    <Attribute space="25" />
+    <Attribute cycleTime="5" />
+    <Attribute acceleration="0.05" />
+    <Attribute velocity="4.1" /> 	// velocidade média (ou por minima e máxima?)
+    <Attribute dim="0" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute add="id01" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute disperseWeight="3" />
+    <Attribute flockWeight="0.1" />
+
+  </Group>
+
+  <Group id="birds01">
+    <Attribute number="40" />
+    <Attribute cycleTime="1" />
+    <Attribute acceleration="0.05" />
+    <Attribute velocity="4.1" /> 	            // velocidade média (ou por minima e máxima?)
+    <Attribute dim="0" /> 			              // 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute predatorsGroup="people01" />         // todos os boids deste swarm são predadores destes
+    <Attribute boundary="65" /> 			// 0 = 3D, 1,2 e 3 = 2D variando os eixos
+    <Attribute cycleTime="10" />
+    <Attribute flockWeight="0.1" />
+    <Attribute disperseWeight="0.5" />
+    <Attribute matchWeight="0.5" />
+    <Attribute boundaryWeight="1" />
+    <Attribute followLiderWeight="1" />
+    <Attribute followPathWeight="1" />
+    <Attribute randomWeight="0" />
+    <Attribute avoidObstaclesWeight="1" />
+    <Attribute avoidPredatorsWeight="1" />
+  </Group>
+
+</World>
